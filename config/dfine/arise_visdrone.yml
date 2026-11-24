@@ -1,0 +1,23 @@
+__include__: ['./arise_base.yml']
+
+output_dir: ./output/arise_visdrone
+checkpoint_freq: 50
+
+DFINE:
+  encoder: ARISEEncoder
+
+ARISEEncoder:
+  in_channels: [96, 384, 768, 1536]
+  feat_strides: [4, 8, 16, 32]
+  hidden_dim: 256
+  use_encoder_idx: [3]
+  num_encoder_layers: 1
+  nhead: 8
+  dim_feedforward: 1024
+  dropout: 0.
+  enc_act: gelu
+  expansion: 0.5
+  depth_mult: 0.67
+  act: silu
+  bio_ratio: 0.5
+  dy_groups: 4

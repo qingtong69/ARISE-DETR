@@ -1,0 +1,6 @@
+__include__:
+- ./arise_visdrone.yml
+- ./codrone_hbb_common.yml
+output_dir: ./output/arise_codrone_hbb
+
+heldout_annotations: data/CODrone/annotations_hbb/codrone_test_hbb.json
