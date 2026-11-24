@@ -1,0 +1,12 @@
+data/
+checkpoints/
+weight/
+output/
+__pycache__/
+*.py[cod]
+*.pth
+*.pt
+*.onnx
+.env
+.env.*
+.ipynb_checkpoints/
