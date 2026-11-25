@@ -1,7 +1,0 @@
-__include__: ['./arise_codrone_hbb.yml']
-eval_only: True
-output_dir: ./output/arise_codrone_hbb_test
-val_dataloader:
-  dataset:
-    img_folder: data/CODrone/test/images
-    ann_file: data/CODrone/annotations_hbb/codrone_test_hbb.json
