@@ -1,3 +1,0 @@
-__include__: ['./arise_visdrone.yml']
-DFINETransformer:
-  num_points: [6, 6, 6, 6]
